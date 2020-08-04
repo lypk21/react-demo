@@ -1,0 +1,48 @@
+@import "../../assets/css/variable"
+.nav-header
+  margin-bottom: 25px
+  .nav-header-main
+    height: 100px
+    line-height: 100px
+    display: flex
+    flex-wrap: nowrap
+    justify-content: center
+    align-items: center
+    .nav-header-logo
+      flex: 0 0 250px
+      width: 250px
+      margin-right: 15px
+      img
+        width: 100%
+    .nav-header-contact
+      flex: 1
+      text-align: right
+      margin-right: 25px
+      font-size: 25px
+      color: $third-color
+      font-weight: bold
+      span
+        margin-left: 10px
+    .nav-header-user
+      flex: 0 0 150px
+      width: 150px
+      margin-left: 20px
+      font-size: 20px
+      cursor: pointer
+    .nav-header-user:hover
+      color: $main-color
+  .nav-header-menu
+      flex: 1
+      display: flex
+      background-color: $main-color
+      color: #fff
+      overflow: hidden
+      height: 60px
+      justify-content: center
+      align-items: center
+      .nav-header-item
+        padding: 20px 40px
+        color: #fff
+        font-size: 20px
+      .nav-active
+        background-color: $third-color
