@@ -1,7 +1,7 @@
 1. how to run?
 
-1) yarn install
-2) yarn start
+    1) yarn install
+    2) yarn start
 
 2. Tech Stack： I main using React, Router, SASS, Bootstrap, Cookies, Pubsub, moment， prop-types
 
@@ -14,3 +14,5 @@
    4) without login, if visit profile, will be redirect to login. once login, will redirect to profile page. 
    5) user state needs to be used in several component, there is why I use Pubhub to communicate between different components.  
    
+4. Netlify preview url: 
+   https://hopeful-mirzakhani-d6dbdd.netlify.app/
