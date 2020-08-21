@@ -1,3 +1,27 @@
+This is  3 hours task show how to use basic React and SASS. 
+
+question:
+Implement ReactJS app which is showing the following pages:
+
+/ - home
+/login – login page
+/news – news page (doesn’t require authorization)
+/profile – user profile. Requires authorization. If user is not authorized, navigate to Login page.
+On the header or footer put links or menu pointing to home, news and profile pages. 
+
+Login should be hardcoded to user “Admin” and password “12345”. Any other input should result in showing an error “Invalid user/password”. Upon valid user/password entry, user should be navigated to Profile page.
+
+Run-time information about current user can be stored in localStorage. No need to implement db.
+
+Wrap React components into JSX.
+
+A basic bootstrap theme should be used for the assignment with some cosmetic changes wrapped in SASS for demonstration purposes only.  
+
+Create all necessary setup for the project to be deployed in production as a static website. 
+
+
+solution:
+
 1. how to run?
 
     1) yarn install
